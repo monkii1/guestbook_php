@@ -11,7 +11,10 @@ hr {
     border: none;
 }
 
-
+textarea {
+    width: 100%;
+    resize: none;
+}
 
 h1 {
     text-align: center;
@@ -30,6 +33,10 @@ input[type=text] {
 .buttons {
     display: flex;
     justify-content: space-evenly;
+}
+
+.inputButtons {
+    width: 200px;
 }
 
 input[type=button] {
@@ -59,4 +66,11 @@ h3 {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 8px;
+}
+
+ul.guestbook-pagination {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
